@@ -1,0 +1,10 @@
+<h1>Items</h1>
+{{#if items}}
+    <ul>
+    {{#each items}}
+        <li>{{this.name}}: {{this.desc}}</li>
+    {{/each}}
+    </ul>
+{{else}}
+    <p>No items found</p>
+{{/if}}
