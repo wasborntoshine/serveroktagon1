@@ -9,7 +9,7 @@ const db = mysql.createPool({
     password: "chatbottests"
 });
 
-const token = '7304708558:AAFJmiQ6jwyyFrAPR-gNnJVUMp4dc1hHv0Y';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 
 const commands = [
