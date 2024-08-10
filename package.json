@@ -1,11 +1,11 @@
 {
-  "name": "helloapp",
-  "version": "1.0.0",
-  "author": "Tkachuk Yurii",
-  "scripts": {
-    "start": "nodemon app.js"
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.7"
   },
   "dependencies": {
-    "nodemon": "^3.0.1"
+    "cron": "^3.1.7",
+    "mysql2": "^3.11.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "set-interval-async": "^3.0.3"
   }
 }
